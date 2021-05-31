@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Edible Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- //bootstrap-css -->
+<!-- css -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- //css -->
+<!-- fonts -->
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //fonts -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/modernizr.custom.js"></script>
+<script src="js/bootstrap.js"></script>
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+		
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+</head>
+<body>
+	<!--baner-->
+	<div class="banner">
+		<!-- container -->
+		<div class="container">
+			<div class="banner-top">
+				<div class="social">
+	
+				</div>
+							</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="banner-top-grid">
+				<script src="js/responsiveslides.min.js"></script>
+				<script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+					// Slideshow 4
+						$("#slider3").responsiveSlides({
+							auto: false,
+							pager: true,
+							nav: false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+								$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+							}
+						 });				
+					});
+				</script>
+				<div  id="top" class="callbacks_container-wrap">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="banner-info">
+								<h3> <span>Leo's</span> Taekwondo World</h3>
+							<div class="banner-info">																<p>Welcome to Leo's Taekwondo website, where you you can find all the Taekwondo related information you want,completely for free, enjoy!</p>
+								<div class="banner-buttons">
+									<div class="banner-button white-button">
+										
+									</div>
+								</div>
+							</div>
+						</li>
+											</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>	
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!--//baner-->
+	<div class="top-nav">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="logo">
+						<h1><a href="Home.html">Taekwondo</a></h1>
+					</div>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-center">
+						<li><a href="Home.html" class="active">Home</a></li>
+						<li><a href="about.html">About</a></li>	
+						<li><a href="gallery.html">Gallery</a></li>					
+						<li><a href="contact.html">Contact</a></li>
+						</ul>	
+					<div class="clearfix"> </div>
+				</div>
+			</div>	
+		</nav>		
+	</div>	
+	<!-- script-for sticky-nav -->
+			<script>
+			$(document).ready(function() {
+				 var navoffeset=$(".top-nav").offset().top;
+				 $(window).scroll(function(){
+					var scrollpos=$(window).scrollTop(); 
+					if(scrollpos >=navoffeset){
+						$(".top-nav").addClass("fixed");
+					}else{
+						$(".top-nav").removeClass("fixed");
+					}
+				 });
+				 
+			});
+			</script>
+			<!-- /script-for sticky-nav -->
+	<!--navigation-->
+	<!-- banner-bottom -->
+	<div class="welcome">
+		<div class="welcome-left">
+			<h3>Welcome to Taekwondo's World!</h3>
+			<h4>You Guys need to know me first</h4>
+			<p>This is Leo who Studied Taekwondo from 4 years old till now,also is the owner of this website.
+				I am now a black belt and have participated in many competitions and shows,become a representative of the competition athletes and take the oath.
+				I want to be a strong guy who can protect my parents and I want Taekwondo to be recognized by the public, it's not a flashy.
+				
+			</p>
+		</div>
+		<div class="welcome-right">
+				
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- offer -->
+	<div class="welcome offer">
+		<div class="welcome-left offer-left">
+			<h3>Honor</h3>
+			<p>				I got 3 gold and  sliver I love it and I found out that it was difficult for students to study at home. They have no coach and they can’t practise at home.
+				So I am going to create a website to help people learn the skills in taekwondo
+				
+			</p>
+			<div class="offer-left-list">
+				<ul>
+					</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="welcome-right offer-right">
+			
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- //offer -->
+	<!-- new -->
+	<div class="welcome new">
+		<div class="welcome-left new-left">
+			<h3>My word:</h3>
+			<div class="new-grids">
+				<div class="date">
+					
+				</div>
+				<div class="new-grid-right">
+					<p>Taekwondo is a sport that is very passionate and based on many good basic moral virtues, Taekwondo is not a sport that has an empty appearance but is not useful at all. </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="new-grids">
+				<div class="date">
+					
+				</div>
+				<div class="new-grid-right">
+					<p>If you insist on your opinion and try to discredit Taekwondo, no problem, you can come and try me and I will show you how Taekwondo works in practice and show you how it works.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="welcome-right new-right">
+			
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- //new -->
+	<!-- services -->
+	</div>
+	<!-- //copyright -->
+</body>
+</html>
