@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Edible Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- //bootstrap-css -->
+<!-- css -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- //css -->
+<!-- fonts -->
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //fonts -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/modernizr.custom.js"></script>
+<script src="js/bootstrap.js"></script>
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+		
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+</head>
+<body>
+	<!--baner-->
+	<!--//baner-->
+	<div class="top-nav">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="logo">
+						<h1><a href="index.html">Taekwondo</a></h1>
+					</div>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-center">
+						<li><a href="Home.html">Home</a></li>
+						<li><a href="about.html" class="active">About</a></li>					
+						<li><a href="gallery.html">Gallery</a></li>									
+							</li>		
+						<li><a href="contact.html">Contact</a></li>
+					</ul>	
+					<div class="clearfix"> </div>
+				</div>
+			</div>	
+		</nav>		
+	</div>	
+	<!-- script-for sticky-nav -->
+			<script>
+			$(document).ready(function() {
+				 var navoffeset=$(".top-nav").offset().top;
+				 $(window).scroll(function(){
+					var scrollpos=$(window).scrollTop(); 
+					if(scrollpos >=navoffeset){
+						$(".top-nav").addClass("fixed");
+					}else{
+						$(".top-nav").removeClass("fixed");
+					}
+				 });
+				 
+			});
+			</script>
+			<!-- /script-for sticky-nav -->
+	<!--navigation-->
+	<div class="about-top">
+		<div class="about-info">
+			<h2>About</h2>
+		</div>
+		<!-- banner-bottom -->
+		<div class="about-grid-top">
+			<!-- container -->
+			<div class="container">
+				<div class="col-md-6 about-left">
+					<h3>My Experience</h3>
+					<h4>Nothing can be easy</h4>
+					<p>As a child, I often read KongFu novels written by Jin Yong, so I had a dream of being a KongFu monster since childhood. I wanted to build up my body so that I could protect my family, so I began to practice taekwondo when I was 4 years old. I had many hobbies when I was young, but I never thought that I would develop this hobby so big.
+					</p>
+				</div>
+				<div class="col-md-6 about-right">
+					<img src="images/6.jpg" alt="" />	
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-- about-bottom -->
+		<div class="about-bottom">
+			<!-- container -->
+			<div class="container">
+				<h3>Basic Knowlege of Taekwondo</h3>
+				<div class="about-bottom-grids">
+					<div class="col-md-6 about-bottom-left">
+						<h4>Grade Classification</h4>
+						<p>White belt: White, representing purity and cleanliness, represents that the practitioner is practising Taekwondo for pure purposes and not for some improper purpose. It also represents the practitioner's blankness in this new area of Taekwondo, like a blank sheet of paper to be added to.
+							<span>White and yellow belt: The colour white represents blankness and purity and yellow represents the earth. The white and yellow belt is half white and half yellow, which means that the practitioner has already started to touch Taekwondo and has learnt some elementary content, and has set both feet on the earth of Taekwondo.
+							</span>Yellow belt: As mentioned earlier, yellow represents the earth. This belt represents the practitioner who has already learnt some entry level techniques, like the earth, and is at the bottom of the hierarchy, and has already laid the foundation for what is to come.
+						<span>Yellow and green belt: yellow represents the earth and green represents the grass and trees growing on the earth. This band is half yellow and half green, which means that the practitioner has made some progress in relation to the previous band, learning new things on top of the previous one and taking a step forward to a higher level.</span>
+						<span>Green belt: Green represents the grass and trees growing on the earth. Compared to the previous level, practitioners in this belt have already learnt the basic kicks and the most basic pins and postures for beginners and have moved up a level.</span>
+					<span>Green and blue belt: As mentioned earlier, green represents the grass and trees growing on the earth, then blue represents the blue sky, this belt position is half green and half blue, it means that the practitioners have made some progress from the green belt, which means that the grass and trees growing on the earth have grown taller and closer to the blue above, this can be interpreted as the practitioners have improved again.</span>
+					</p>
+					</div>
+					<div class="col-md-6 about-bottom-left about-bottom-right">
+						<p> Blue belt: Blue represents the blue sky, and this band is all blue, which means that the grass on the earth has grown to a certain height and has reached the height of blue, then, at this time, the practitioner has improved to the level of the mouth and is ready to participate in the real battle.
+							<span>Blue and red belt: If blue represents the blue sky, then red represents the sun in the sky, the sun represents fire and passion, generation red also represents threat and danger, this belt position half blue and half red, it means that the practice are beginning to touch the advanced level content, already have some attack ability.
+							</span>Red belt: As mentioned earlier, red represents the sun, which represents fire and passion, but also danger and threat. Practitioners at this belt level are already capable of certain attacks, so when others see this belt they have to be careful, and for the practitioners themselves, this is also a warning, because for practitioners at this belt level, they tend to become complacent and aggressive, believing that they have learned advanced content, mistakenly believing that their level is already very good, and often going out to show off how good they are in real combat.Therefore, the practice of this belt should be accompanied by the practice of technical movements as well as the strengthening of the spiritual and ideological direction, using the spirit of Taekwondo as a tool to discipline one's own words and actions, not to cause trouble or to unsatisfy the weak with the strong.
+							<span>Red and Black Belt: This belt is half red and half black. Some people also call this belt "half-dan" because the next belt is not a rank, but a dan, so some people call this belt "half-dan". It means that if a practitioner can practice hard enough, he or she may become a black belt and enter a whole new level of practice.</span>
+<span>Black belt: Black represents the universe, which is boundless (at least to the current level of science), and this means that the practitioner's future practice will be endless, as it is not only a physical exercise, but also a moral and intellectual exercise. At the same time, black represents darkness and evil, which is a constant reminder to the practitioner not to fear the forces of darkness and to be brave enough to fight against all wrongdoings and people and to be a decent and upright person.</span>
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //about-bottom -->
+		<!-- about-team -->
+		
+		<!-- //about-team -->
+	</div>
+	<!-- footer -->
+	
+	<!-- //footer -->
+	
+</body>
+</html>
